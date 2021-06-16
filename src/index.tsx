@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
 import './index.css';
-import App from './App';
+// import App from './App';
+// import Parent from './props/parent'
+// import GuestList from './state/GuestList'
+// import UserSearch from './state/UserSearch'
+// import UserSearch from './classes/SearchUser';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		{/* <App /> */}
+		{/* <Parent/> */}
+		{/* <GuestList/> */}
+		{/* <UserSearch /> */}
+		<App />
+	</React.StrictMode>,
+	document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
